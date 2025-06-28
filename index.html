@@ -15,10 +15,23 @@
 
 <label>Umiejętności:<br />
   <select id="skillSelect" multiple size="7"></select>
-</label><br /><br />
 
+
+<h3>Statystyki</h3>
+<div id="stats">
+  <label>Siła: <input type="number" min="8" max="15" value="8" data-stat="str" /></label><br />
+  <label>Zręczność: <input type="number" min="8" max="15" value="8" data-stat="dex" /></label><br />
+  <label>Budowa: <input type="number" min="8" max="15" value="8" data-stat="con" /></label><br />
+  <label>Inteligencja: <input type="number" min="8" max="15" value="8" data-stat="int" /></label><br />
+  <label>Zmysły: <input type="number" min="8" max="15" value="8" data-stat="sen" /></label><br />
+  <label>Charyzma: <input type="number" min="8" max="15" value="8" data-stat="cha" /></label><br />
+</div>
+
+<p>Pozostałe punkty: <span id="pointsLeft">27</span></p>
+<button id="resetBtn">Resetuj Statystyki</button>
+
+</label><br /><br /><br />
   <button id="createBtn">Stwórz Postać</button>
-
   <pre id="output"></pre>
 
   <script type="module" src="./dist/app.js"></script>

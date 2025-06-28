@@ -1,5 +1,11 @@
 import { Skill, Profession, Character } from "./enums.js";
 
+
+// --- Point Buy Stats ---
+import { setupStatLogic } from "./stats.js";
+setupStatLogic();
+//------
+
 const nameInput = document.getElementById("nameInput") as HTMLInputElement;
 const professionSelect = document.getElementById("professionSelect") as HTMLSelectElement;
 const skillSelect = document.getElementById("skillSelect") as HTMLSelectElement;
