@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Akrobatyka",
+    "attribute": "Zr",
+    "description": "Zwinność i równowaga podczas skoków, przewrotów czy utrzymywania się na wąskich powierzchniach."
+  },
+  {
+    "name": "Atletyka",
+    "attribute": "Sił",
+    "description": "Siła i wytrzymałość w czynnościach takich jak wspinaczka, pływanie czy bieganie."
+  },
+  {
+    "name": "Biologia",
+    "attribute": "Int",
+    "description": "Wiedza o żywych organizmach, ich funkcjonowaniu i zachowaniach."
+  },
+  {
+    "name": "Empatia",
+    "attribute": "Cha",
+    "description": "Pomaga zrozumieć emocje innych istot i dostosować swoje działania, aby zyskać ich zaufanie lub złagodzić napięcie."
+  },
+  {
+    "name": "Intuicja",
+    "attribute": "Zm",
+    "description": "Odczytywanie emocji i intencji innych osób."
+  },
+  {
+    "name": "Medycyna",
+    "attribute": "Zm",
+    "description": "Leczenie ran i chorób oraz znajomość anatomii."
+  },
+  {
+    "name": "Neonauka",
+    "attribute": "Int",
+    "description": "Badanie i zrozumienie anomalii oraz energii związanych z Wyrwami."
+  },
+  {
+    "name": "Percepcja",
+    "attribute": "Zm",
+    "description": "Zauważanie szczegółów i wyczulenie na bodźce z otoczenia."
+  },
+  {
+    "name": "Precyzja",
+    "attribute": "Zr",
+    "description": "Precyzja i zręczność w pracy z narzędziami, mechanizmami czy delikatnymi przedmiotami."
+  },
+  {
+    "name": "Przetrwanie",
+    "attribute": "Zm",
+    "description": "Umiejętność radzenia sobie w trudnych warunkach i znajdowania zasobów."
+  },
+  {
+    "name": "Skradanie",
+    "attribute": "Zr",
+    "description": "Poruszanie się cicho i ukrywanie przed wrogami."
+  },
+  {
+    "name": "Śledztwo",
+    "attribute": "Int",
+    "description": "Analiza śladów, tropienie i odkrywanie ukrytych informacji."
+  },
+  {
+    "name": "Technologia",
+    "attribute": "Int",
+    "description": "Obsługa i naprawa urządzeń, maszyn i komputerów."
+  },
+  {
+    "name": "Zastraszanie",
+    "attribute": "Cha",
+    "description": "Wpływanie na innych poprzez groźby i dominację."
+  }
+]

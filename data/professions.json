@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Adept",
+    "description": "Zwiększona szybkość i refleks. Precyzyjny, szybki wojownik, który potrafi walczyć zarówno bez broni, jak i z lekką lub krótką bronią palną. Gdy nie ma broni, jego ciało staje się narzędziem zniszczenia — silne, szybkie i gotowe do wykorzystania w każdej sytuacji."
+  },
+  {
+    "name": "Agent",
+    "description": "Zwiększona szybkość, refleks i niezrównana zdolność do cichego poruszania się. Skradacz, agent specjalny, którego obecność jest niezauważalna, a cel nigdy nie wie, co go spotka."
+  },
+  {
+    "name": "Bojownik",
+    "description": "Mięśnie z tytanu, temperament reaktora. Preferuje bezpośrednią konfrontację, gdzie liczy się siła, wytrzymałość i odpowiednio ciężki sprzęt. Plazmowe topory, rakietowe młoty – im większe ryzyko, tym większa satysfakcja."
+  },
+  {
+    "name": "Koder",
+    "description": "Zwiększone umiejętności analityczne. Korzystając z tabletu bojowego z wgranymi algorytmami i szybkimi obliczeniami w głowie, rzuca czary niczym mag – szybko i skutecznie. Jego umiejętności są jest precyzyjne, wykańczające i efektywne. I nie boi się też wyciągnąć pistoletu, gdy sytuacja tego wymaga."
+  },
+  {
+    "name": "Oficer",
+    "description": "Oficer to postać o zwiększonej charyzmie i bystrości umysłu, której głównym zadaniem jest koordynowanie zespołu. Dzięki swoim zdolnościom dowódczym potrafi inspirować towarzyszy, dając im wzmocnienia i inspirację, co pozwala im wykonywać swoje zadania z maksymalną precyzją."
+  },
+  {
+    "name": "Psionik",
+    "description": "Zwiększona podatność na nieziemskie energie. Dotknięty przez tajemniczą moc z innego wymiaru, umysł tego herosa otworzył się na psioniczne zdolności. Potrafi manipulować rzeczywistością za pomocą woli – wystarczy jeden gest."
+  },
+  {
+    "name": "Sensor",
+    "description": "Sensorzy to mistrzowie percepcji, wyczuleni na subtelne zmiany w otoczeniu. Dzięki swoim zaawansowanym zmysłom potrafią dostrzegać rzeczy, które umykają zwykłym ludziom, a ich zdolności pozwalają na wykrywanie, leczenie, przewidywanie przyszłości i manipulowanie energią w różnorodny sposób."
+  },
+  {
+    "name": "Żołnierz",
+    "description": "Żołnierz o zwiększonej wytrzymałości i refleksie. Mistrz w posługiwaniu się bronią palną, bo czemu by nie? Doskonały w walce na odległość, a jak trzeba, to też dobrze wchodzi w ogień, niczym kapitan Bomba."
+  },
+  {
+    "name": "Specjalista",
+    "description": "Mistrz dziedziny, czarodziej odrętwiałej techniki. Łączy stal z strategią – leczy, wzmacnia, zabezpiecza. Kiedy inni sięgają po broń, on już uruchamia gadżet, który zmienia zasady gry."
+  }
+]
