@@ -3,35 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <title>Kreator Postaci — BREACH 01</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      max-width: 800px;
+    }
+    .desc {
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+      color: #444;
+    }
+    select {
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <h1>Kreator Postaci — BREACH 01</h1>
 
-  <label>Imię: <input id="nameInput" type="text" /></label><br /><br />
+  <label>Imię:
+    <input id="nameInput" type="text" />
+  </label>
+  <br /><br />
 
   <label>Profesja:
     <select id="professionSelect"></select>
-  </label><br /><br />
+  </label>
+  <div id="professionDesc" class="desc"></div>
 
-<label>Umiejętności:<br />
-  <select id="skillSelect" multiple size="7"></select>
+  <label>Umiejętności (max 3):
+    <select id="skillSelect" multiple size="7"></select>
+  </label>
+  <div id="skillDesc" class="desc"></div>
 
+  <h3>Statystyki</h3>
+  <div id="stats">
+    <label>Siła: <input type="number" min="8" max="15" value="8" data-stat="str" /></label><br />
+    <label>Zręczność: <input type="number" min="8" max="15" value="8" data-stat="dex" /></label><br />
+    <label>Budowa: <input type="number" min="8" max="15" value="8" data-stat="con" /></label><br />
+    <label>Inteligencja: <input type="number" min="8" max="15" value="8" data-stat="int" /></label><br />
+    <label>Zmysły: <input type="number" min="8" max="15" value="8" data-stat="sen" /></label><br />
+    <label>Charyzma: <input type="number" min="8" max="15" value="8" data-stat="cha" /></label><br />
+  </div>
 
-<h3>Statystyki</h3>
-<div id="stats">
-  <label>Siła: <input type="number" min="8" max="15" value="8" data-stat="str" /></label><br />
-  <label>Zręczność: <input type="number" min="8" max="15" value="8" data-stat="dex" /></label><br />
-  <label>Budowa: <input type="number" min="8" max="15" value="8" data-stat="con" /></label><br />
-  <label>Inteligencja: <input type="number" min="8" max="15" value="8" data-stat="int" /></label><br />
-  <label>Zmysły: <input type="number" min="8" max="15" value="8" data-stat="sen" /></label><br />
-  <label>Charyzma: <input type="number" min="8" max="15" value="8" data-stat="cha" /></label><br />
-</div>
+  <p>Pozostałe punkty: <span id="pointsLeft">27</span></p>
+  <p id="errorMessage" style="color: red; font-weight: bold;"></p>
+  <button id="resetBtn">Resetuj Statystyki</button>
 
-<p>Pozostałe punkty: <span id="pointsLeft">27</span></p>
-<button id="resetBtn">Resetuj Statystyki</button>
-
-</label><br /><br /><br />
+  <br /><br />
   <button id="createBtn">Stwórz Postać</button>
+
   <pre id="output"></pre>
 
   <script type="module" src="./dist/app.js"></script>
