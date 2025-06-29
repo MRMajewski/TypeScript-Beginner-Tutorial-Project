@@ -23,23 +23,30 @@
 <body>
   <h1>Kreator Postaci — BREACH 01</h1>
 
-  <label>Imię:
+<h3>Imię</h3>
+  <label> Wprowadź imię Herosa
+  </br>
     <input id="nameInput" type="text" />
   </label>
   <br /><br />
 
-  <label>Profesja:
+ <h3>Profesja</h3>
+  <label>Wybierz profesję Herosa:
     <select id="professionSelect"></select>
   </label>
   <div id="professionDesc" class="desc"></div>
 
-  <label>Umiejętności (max 3):
+
+  <h3>Umiejętności</h3>
+  <label>Wybierz  trzy  umiejętności Herosa:
     <select id="skillSelect" multiple size="7"></select>
   </label>
   <div id="skillDesc" class="desc"></div>
 
   <h3>Statystyki</h3>
+  <label>Rozdaj punkty statystyk Herosa</label></br>
   <div id="stats">
+    </br>
     <label>Siła: <input type="number" min="8" max="15" value="8" data-stat="str" /></label><br />
     <label>Zręczność: <input type="number" min="8" max="15" value="8" data-stat="dex" /></label><br />
     <label>Budowa: <input type="number" min="8" max="15" value="8" data-stat="con" /></label><br />
@@ -55,6 +62,10 @@
   <br /><br />
   <button id="createBtn">Stwórz Postać</button>
 
+  <br /><br />
+  <button id="saveBtn">Zapisz Postać</button>
+  <button id="loadBtn">Wczytaj Postać</button>
+  
   <pre id="output"></pre>
 
   <script type="module" src="./dist/app.js"></script>
