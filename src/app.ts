@@ -11,6 +11,7 @@ const skillDesc = document.getElementById("skillDesc") as HTMLElement;
 const output = document.getElementById("output") as HTMLPreElement;
 const button = document.getElementById("createBtn") as HTMLButtonElement;
 const errorMessage = document.getElementById("errorMessage") as HTMLParagraphElement;
+const statInputs = document.querySelectorAll<HTMLInputElement>('#stats input');
 
 let professions: ProfessionData[] = [];
 let skills: SkillData[] = [];
@@ -30,6 +31,9 @@ async function loadData() {
 // --- Point Buy Stats ---
 import { setupStatLogic } from "./stats.js";
 setupStatLogic(validateForm);
+
+
+
 //------
 
 
@@ -101,16 +105,21 @@ button.addEventListener("click", () => {
   const name = nameInput.value;
   const profession = professionSelect.value;
   const selectedSkills = Array.from(skillSelect.selectedOptions).map(opt => opt.value);
-
-  if (skills.length > 3) {
-    alert("Możesz wybrać maksymalnie 3 Umiejętności!");
-    return;
+  const stats = {
+  strength: parseInt(statInputs[0].value),
+  dexterity: parseInt(statInputs[1].value),
+  constitution: parseInt(statInputs[2].value),
+  intelligence: parseInt(statInputs[3].value),
+  senses: parseInt(statInputs[4].value),
+  charisma: parseInt(statInputs[5].value)
   }
+
 
   const character: Character = {
     name,
     profession,
-    skills: selectedSkills
+    skills: selectedSkills,
+    stats
   };
 
   output.textContent = JSON.stringify(character, null, 2);
